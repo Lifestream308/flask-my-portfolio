@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="/static/main.css" rel="stylesheet" type="text/css"/>
+   <title>My Portfolio</title>
+   <script src="/static/mainjs.js" defer></script>
+</head>
+<body>
+    <h1 class="title">Web Developer.</h1>
+    <h2>Hello. My name is <span class="nameEmphasis">Christian.</span></h1>
+    <h2>I am...</h2>
+ 
+    <input onkeypress="hitEnter()" type="text" id="descriptionInput" name="descriptionInput" placeholder="Say something nice" autofocus> 
+
+    <button onclick="addDescription()">Add</button>
+ 
+    <div id="appendContainer"></div>
+
+    <h2 class="h2Emphasis">Skills</h2>
+    <div class="listEmphasis">
+        <ul>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>SQL / POSTGRESQL</li>
+            <li>APIs</li>
+
+        </ul>
+        <ul>
+            <li>REST API Apps</li>
+            <li>Flask Framework</li>
+            <li>HTML</li>
+            <li>CSS</li>                
+        </ul>
+    </div>
+
+    <h2 class="h2Emphasis">Projects</h2>
+    <div class="container bgEmphasis">
+        <div class="project">
+            <a href="https://pokemondb308.herokuapp.com/home" target="_blank"><h3>REST API App</h3></a>
+            <p>Register and log in with credentials. Create, read, update, and delete posts in the app or through REST API routes using GET/POST/PUT/DELETE methods!</p>
+            <a href="https://github.com/Lifestream308/pokemondb308" target="_blank">Github Code</a>
+        </div>
+        <div class="project">
+            <a href="https://lifestream308.github.io/" target="_blank"><h3>Pokemon API</h3></a>
+            <p>Choose your favorite Pokemon #'s and the corresponding Pokemon information will appear! I configured my REST API app to store Pokemon information and now this frontend consumes JSON from that database to show off Pokemon!</p>
+            <a href="https://github.com/Lifestream308/Pokemonsite" target="_blank">Github Code</a>
+        </div>
+    </div>
+
+    <h2 class="h2Emphasis">Background</h2>
+    <p class="bgEmphasis">My programming journey started thanks to my local library. I found an old book at my library that taught people how to make their very first website. The content was outdated, but I was in love. After that book I moved on to more modern books, youtube videos, forums, and Javascript. I self taught myself HTML, CSS, and Javascript for 7 months before deciding to enroll in a bootcamp. Learning new programming skills and being able to apply them immediately is incredibly fun. Programming has made me believe that knowledge truly is power and I love it. My focus so far has been on web development, but I can't wait to learn about the endless career possibilities that programming offers.</p>
+ 
+    <h2 class="h2Emphasis">Study Tools</h2>
+    <div class="tools">
+        <a href="https://www.w3schools.com/" target="_blank"><img src="https://clipground.com/images/w3s-png-2.png" height="150" alt="W3 Schools Logo"></a>
+
+        <a href="https://www.codewars.com/" target="_blank"><img src="https://blog.codewars.com/logo.png?h=cbc5fc2fb90154f31e3eb4ed3d3d572d497fa0522469e8f186562c4365b43db2" height="150" alt="Codewars Logo"></a>
+
+        <a href="https://www.youtube.com/" target="_blank"><img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo-2017-present.jpg" height="150" alt="Youtube Logo"></a>
+    </div>
+
+    <!-- <h2 class="h2Emphasis">Hobbies</h2>
+    <div class="listEmphasis">
+        <ul>
+            <li>Youtube for studying and entertainment</li>
+            <li>Reading books</li>
+            <li>Reading forums</li>
+            <li>Videogames</li>
+            <li>Watching Movies</li>
+            <li>Spending time with my son</li>
+        </ul>
+    </div> -->
+
+    <footer>
+        <h2 class="h2Emphasis">Contact Me!</h2>
+        <form class="bgEmphasis" action="" autocomplete="on">
+            <label for="fname">Your Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Name" style="width: 80%" value=""><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" placeholder="Hello, I can't wait to work with you!" style="width: 80%" value=""><br><br>
+        
+            <input class="sendMessage" type="submit" value="Send Message">
+        </form> 
+    </footer>
+</body>
+</html>

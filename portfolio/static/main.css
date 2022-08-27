@@ -1,0 +1,93 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background: url(https://virtualbg-brandstudio.netdna-ssl.com/wp-content/uploads/2020/06/professional-2-background-for-zoom-or-teams-unsplash.jpg); */
+    background: url(/static/images/professional-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0 10% 0 10%;
+}
+.title {
+    background-color: orange;
+    width: fit-content;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+input {
+    border-radius: 5px;
+}
+button {
+    border-radius: 5px;
+}
+.relative {
+    position: relative;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 10px 7px 10px;
+    background-color: orange;
+    color: black;
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+.nameEmphasis {
+    /* color: rgb(0, 166, 255); */
+    background-color: rgb(0, 166, 255);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+#appendContainer {
+    width: 40%;
+}
+#appendContainer p {
+    color: rgb(115, 0, 255);
+    font-size: 140%;
+}
+/* #appendContainer p:nth-child(odd) {
+    color: orangered;
+  } */
+.bgEmphasis {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.listEmphasis {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: .1rem 0 .1rem 0;
+    display: flex;
+}
+.listEmphasis ul {
+    margin-right: 4rem;
+}
+.container {
+    display: flex;
+}
+.project {
+    margin-right: 3rem;
+}
+.tools {
+    text-align: center;
+}
+.tools a{
+    margin: 0 2rem;
+}
+.h2Emphasis {
+    text-decoration: underline;
+}
+   
+footer {
+    margin-bottom: 3rem;
+}
