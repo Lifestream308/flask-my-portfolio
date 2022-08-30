@@ -102,15 +102,3 @@ button {
 footer {
     margin-bottom: 3rem;
 }
-
-/* Media Queries */
-/* @media screen and (max-width: 700px) {
-    #appendContainer {width: 60%;}
-}
-@media screen and (max-width: 550px) {
-    #appendContainer {width: 80%;}
-}
-@media screen and (max-width: 700px) {
-    .container {flex-wrap: wrap;}
-    .raise {position: relative;}
-} */
