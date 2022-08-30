@@ -22,11 +22,41 @@ body {
     border-radius: .5rem;
     padding: .5rem;
 }
-input {
-    border-radius: 5px;
+.title:hover {
+    opacity: .6;
+    transition: .4s;
 }
-button {
-    border-radius: 5px;
+.searchBox {
+    width: fit-content;
+}
+.searchBox input,button {
+    width: 75%;
+    border: solid #00B4CC 3px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: white;
+    color: #9DBFAF;
+}
+.searchBox button {
+    width: 25%;
+    float: right;
+    border-left: 0px;
+    color: black;
+}
+.searchBox button:hover {
+    opacity: .6;
+    transition: .3s;
+}
+.searchBox input:hover {
+    opacity: .6;
+    transition: .3s;
+}
+.btn {
+    color: black;
+    /* background-color: rgb(0, 227, 0); */
+    background-color:#f44336;
+    padding: 3px 5px;
+    border-radius: 3px;
 }
 .relative {
     position: relative;
@@ -42,6 +72,7 @@ button {
 .close:hover {
     background-color: #f44336;
     color: white;
+    transition: 0.3s;
 }
 .inline {
     display: inline;
@@ -54,6 +85,9 @@ button {
     margin: 0rem 0 0rem 0;
     width: fit-content;
     display: inline-block;
+}
+.nameEmphasis:hover {
+    outline: auto;
 }
 #appendContainer {
     width: 40%;
@@ -70,6 +104,10 @@ button {
     border-radius: 1rem;
     padding: .5rem;
 }
+.bgEmphasis:hover {
+    background-color: lightgreen;
+    transition: .5s;
+}
 .listEmphasis {
     background-color: antiquewhite;
     border-radius: 1rem;
@@ -79,6 +117,10 @@ button {
 }
 .listEmphasis ul {
     margin-right: 4rem;
+}
+.listEmphasis:hover {
+    background-color: lightgreen;
+    transition: .5s;
 }
 .container {
     display: flex;
@@ -97,6 +139,8 @@ button {
 }
 .h2Emphasis {
     text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
 }
    
 footer {
