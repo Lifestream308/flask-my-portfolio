@@ -8,7 +8,7 @@ html {
 }
 body {
     /* background: url(https://virtualbg-brandstudio.netdna-ssl.com/wp-content/uploads/2020/06/professional-2-background-for-zoom-or-teams-unsplash.jpg); */
-    background: url(/images/professional-background.jpg);
+    background: url(/static/images/professional-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
